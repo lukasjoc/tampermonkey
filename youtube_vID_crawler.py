@@ -15,3 +15,5 @@ if __name__ == "__main__":
     parser.add_argument("--playlist-id", type=str, help="provide playlist id")
     args = parser.parse_args()
     print(args)
+
+    # oH youtube-dl can parse playlist  ids? shoot this script to the moon ;;) PepoDance LUL
