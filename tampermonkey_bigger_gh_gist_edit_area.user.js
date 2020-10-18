@@ -8,9 +8,9 @@
 // ==/UserScript==
 
 (function() {
-  "use strict"
-  const custom_height = "1080px"
-  let edit_area = document.querySelectorAll(".commit-create")
-  let childs = edit_area[0].children
-  childs[childs.length-1].style.height = custom_height
+	"use strict"
+	const custom_height = "1080px"
+	let edit_area = document.querySelectorAll(".commit-create")
+	let childs = edit_area[0].children
+	childs[childs.length-1].style.height = custom_height
 })();
