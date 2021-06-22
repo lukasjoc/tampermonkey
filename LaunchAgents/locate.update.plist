@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>locate.update</string>
+
+    <key>ProgramArguments</key>
+    <array>
+      <!-- update locate database for better indexing
+      when using the man 1 locate command -->
+      <string>/usr/libexec/locate.updatedb</string>
+    </array>
+
+    <key>Nice</key>
+    <integer>1</integer>
+
+    <key>StartInterval</key>
+    <!-- ((60*60) *24) -->
+    <integer>86400</integer>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>StandardErrorPath</key>
+    <string>/tmp/crons.err</string>
+
+    <key>StandardOutPath</key>
+    <string>/tmp/crons.out</string>
+  </dict>
+</plist>
