@@ -1,4 +1,5 @@
-# automations
-> Some automations I do
+# tampermonkey
 
-[lukasjoc](https://lukasjoc.com), 2020
+> Tampermonkey scripts
+
+to add just open raw and tampermonkey should prompt you

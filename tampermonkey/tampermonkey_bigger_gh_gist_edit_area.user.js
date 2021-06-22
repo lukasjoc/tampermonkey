@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         bigger_gh_gist_edit_area
+// @name         bigger_gist_edit_area
 // @namespace    https://lukasjoc.com
-// @version      0.1
+// @version      0.2
 // @description  make the edit area of a github gist bigger
 // @author       lukasjoc
 // @match        https://gist.github.com/*/*/edit

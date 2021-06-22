@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         autocomplete_username
+// @name         autocomplete
 // @namespace    https://lukasjoc.com
-// @version      0.1
+// @version      0.2
 // @description  autocomplete username in the setttings area
 // @author       lukasjoc
 // @match        https://github.com/*/*/settings
